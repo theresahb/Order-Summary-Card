@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.container1 {
+    position: relative;
+    left: 175px;
+    top: 35px;
+    width: 1000px;
+    height: 550px;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25), -8px -8px 12px rgba(255, 255, 255, 0.3);
+}
+
+.container2 {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    width: 310px;
+    height: 455px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 10px 40px rgba(0, 0, 0, 0.25), -3px -8px 12px rgba(255, 255, 255, 0.3);
+}
+
+.character img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.summary h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 750;
+    color: hsl(223, 47%, 23%);
+}
+
+.summary p {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    color: hsl(223, 23%, 55%);
+}
+
+.plan {
+    display: flex;
+    left: 30px;
+    bottom: 115px;
+    position: absolute;
+    background: hsl(225, 100%, 98%);
+    width: 250px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.icon img {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+}
+
+.annual {
+    position: absolute;
+    left: 70px;
+    bottom: 12px;
+    margin-top: 10px;
+}
+
+.annual h4 {
+    font-size: 12px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual p {
+    margin-top: 3px;
+    color: hsl(223, 23%, 55%);
+}
+
+.change h6 {
+    color: hsl(245, 58%, 39%);
+}
+
+.change h6:active {
+    color: hsl(281, 39%, 49%);
+    list-style-type: none;
+}
+
+.change a {
+    color: hsl(245, 58%, 39%);
+}
+
+.change a:active {
+    text-decoration: none;
+}
+
+
+.change {
+    position: absolute;
+    left: 190px;
+    bottom: 25px;
+    color: hsl(223, 47%, 23%);
+}
+
+
+h6 .change a {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+
+button {
+    margin-top: 100px;
+    background: hsl(245, 75%, 52%);
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.25), -3px -8px 12px rgba(255, 255, 255, 0.3);;
+}
+
+button:active {
+    background:  hsl(281, 39%, 49%);
+}
+
+.cancel {
+    position: absolute;
+    left: 120px;
+    bottom: 25px;
+    font-size: 14px;
+}
+
+a .cancel {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+a .cancel:active {
+    color: rgb(51, 49, 49);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+    right: 31.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: none;
+}
